@@ -1,0 +1,45 @@
+:root{
+  --primary-color: #97acc5;
+  --hover-color: #00b894;
+  --background-color: #f9f9f9;
+}
+
+body{
+    justify-items: center;
+    background-color:var(--primary-color);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+main{
+    border-radius: .5rem;
+    border-style:double;
+    background-color:var(--background-color);
+    padding: 1rem;
+    max-width: 90%;
+    height: 800px;
+    width: 75%;
+}
+legend{
+    display: flex;
+    align-self: center;
+}
+h1{
+    display: flex;
+    justify-self: center;
+}
+fieldset{
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+
+}
+#divDropdown{
+    width: 100%
+}
+#divInfo{
+    display: flex;
+    flex-direction: column;
+    
+}
