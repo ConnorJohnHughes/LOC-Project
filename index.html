@@ -10,38 +10,56 @@
     <main>
         <h1>Division Managment </h1>
 
-        <form>
+        <form id="dropdownForm">
             <fieldset>
                 <legend>  Select a Divsion</legend>
                 <div>
                
                   
                     <select id="divDropdown">Choose a Divsion
-                    <option value="Select">Select a Divsion</option>
-                    <option value="fineArts">Fine Arts</option>
-                    <option value="humanities">Humanities</option>
-                    <option value="socialScience">Social Science</option>
-                    <option value="english">English</option>
-                    <option value="technology">Technology</option>
-                    <option value="healthScience">Health Science</option>
-                    <option value="trades">Trades</option>
+                        <option value="Select">Select a Divsion</option>
+                        <option value="fineArts">Fine Arts</option>
+                        <option value="humanities">Humanities</option>
+                        <option value="socialScience">Social Science</option>
+                        <option value="english">English</option>
+                        <option value="technology">Technology</option>
+                        <option value="healthScience">Health Science</option>
+                        <option value="trades">Trades</option>
                     </select>
  
         
                 </div>
             </fieldset>
         </form>
-        <form>
+        <form id="divInfoForm">
             <fieldset>
                 <legend>
                     Division Info
                 </legend>
                 <div id="divInfo">
-                    <label for="divName">Division: </label>
-                    <label for="dean">Dean: </label>
-                    <label for="penContact">PEN Contact: </label>
-                    <label for="locRep">LOC Rep: </label>
-                    <label for="chair">Cahir: </label>
+
+                    <div class="labels">
+                        <label for="divName">Division: </label><br>
+                        <label for="dean">Dean: </label><br>
+                        <label for="penContact">PEN Contact: </label><br>
+                        <label for="locRep">LOC Rep: </label><br>
+                        <label for="chair">Chair: </label><br>
+
+                    </div>
+                    <div class="inputs">
+                            <input type="text" id="divName" name="divName"><br>
+                            <input type="text" id="divName" name="divName"><br>
+                            <input type="text" id="divName" name="divName"><br>
+                            <input type="text" id="divName" name="divName"><br>
+                            <input type="text" id="divName" name="divName"><br>
+                    </div>
+                    <div class="errors">
+                        <span>Error message </span><br>
+                        <span>Error message </span><br>
+                        <span>Error message </span><br>
+                        <span>Error message </span><br>
+                        <span>Error message </span><br>
+                    </div>
 
                 </div>
             </fieldset>

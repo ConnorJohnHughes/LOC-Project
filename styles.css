@@ -36,10 +36,36 @@ fieldset{
 
 }
 #divDropdown{
-    width: 100%
+    width: 100%;
 }
-#divInfo{
-    display: flex;
-    flex-direction: column;
-    
+
+#divInfoForm{
+    padding-top: 2rem;
 }
+#divInfo {
+  display: flex;
+  gap: 10px;
+
+}
+
+.labels,
+.inputs,
+.errors {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.labels label {
+  text-align: right;
+  font-weight: bold;
+  line-height: 1.3rem;
+}
+
+.errors span {
+  color: red;
+  font-size: 0.9em;
+  line-height: 1.3rem;
+}
+
+
